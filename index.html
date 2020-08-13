@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalkulator IMT</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+<header>
+	<div class="jumbotron">
+		<h1>Kalkulator Indeks Masa Tubuh</h1>
+		<p class="fontputih">Patner setia anda dalam mencapai tubuh ideal</p>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#kalkulator">Kalkulator</a></li>
+			<li><a href="#history">Riwayat</a></li>
+		</ul>
+	</nav>
+</header>
+<main>
+	<div id="content">
+		<article id="about" class="card">
+			<h2>About Indeks Masa Tubuh</h2>
+			<img src="assets/timbangan.jpg" class="featured-image" alt="Timbangan Berat Badan" width="500">
+			<p>“Indeks massa tubuh adalah cara yang baik untuk menilai apakah berat badan Anda sehat atau tidak,” kata Jessica Crandall, RD, pendidik diabetes bersertifikat dan juru bicara nasional untuk Academy of Nutrition and Dietetics, dikutip dari Daily Burn.</p>
+
+			<p>Indeks massa tubuh adalah metrik standar yang digunakan untuk menentukan siapa saja yang masuk dalam golongan berat badan sehat dan tidak sehat. Indeks massa tubuh alias BMI membandingkan berat badan Anda dengan tinggi badan Anda, dihitung dengan membagi berat badan dalam kilogram dengan tinggi badan dalam meter kuadrat.
+			</p>
+		</article>
+		<article id="kalkulator" class="card">
+			<p>
+				Pastinya anda sudah penasaran dengan indeks masa tubuh anda kan? setelah menekan tombol mulai maka anda akan memasukkan berat dan tinggi badan yang akan dihitung dan menghasilkan besar indeks massa tubuh anda. Berikut merupakan status dari indeks masa tubuh.
+			</p>
+			<table>
+				<tr>
+					<th>Nomor</th>
+					<th>Kriteria IMT</th>
+					<th>Status</th>
+				</tr>
+				<tr>
+					<td>1.</td>
+					<td><18.5</td>
+					<td>Kurang</td>
+				</tr>
+				<tr>
+					<td>2.</td>
+					<td>18.5-24.9</td>
+					<td>Ideal</td>
+				</tr>
+				<tr>
+					<td>3.</td>
+					<td>25-29.9</td>
+					<td>Over</td>
+				</tr>
+				<tr>
+					<td>4.</td>
+					<td>30</td>
+					<td>Obesitas</td>
+				</tr>
+			</table>
+			<br><br>
+			<div>
+				<button class="button" name="mulai" value="Mulai Hitung" onclick="inputDigit()"><span> Hitung </span>
+			</div>
+        </article>
+        <article id="history" class="card">
+        	<h2>Riwayat Perhitungan</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Berat</th>
+                            <th>Tinggi</th>
+                            <th>IMT</th>
+                        </tr>
+                    </thead>
+                    <tbody id="historyList"></tbody>
+                </table>
+        </article>
+	</div>
+	<aside>
+		<article class="profile card">
+			<header>
+				<h2>Tentang Developper</h2>
+				<figure>
+					<img src="assets/profil.png">
+				</figure>
+			</header>
+			<section>
+				<table>
+					<tr>
+						<th>Nama</th>
+						<td>Yudha Yunanto Putra</td>
+					</tr>
+					<tr>
+						<th>Universitas</th>
+						<td>UPN "Veteran" Jawa Timur</td>
+					</tr>
+				</table>
+			</section>
+		</article>
+	</aside>
+</main>
+<footer>
+	<p class="fontputih">Copyright &copy;yudhayp2020</p>
+</footer>
+<script language="javascript" src="assets/kalkulator.js"></script>
+<script language ="javascript" src="assets/storage.js"></script>
+</body>
+</html>
